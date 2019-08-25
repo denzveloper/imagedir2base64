@@ -37,12 +37,12 @@ class Image {
         return $imagedata;
     }
 
-    function show($url = "assets/img/logo/index.png"){
-        if($url != "assets/img/logo/index.png" && file_exists($url)){
+    function show($url = "index.png"){
+        if($url != "index.png" && file_exists($url)){
             //Tambah agar tidak sensitif dengan huruf Kapital dan kecil
                 $img = $this->compress($url);
         }elseif(!file_exists($url)){
-            $img = file_get_contents(base_url("/assets/img/default.png"));
+            $img = file_get_contents(base_url("notfound.png"));
         }else{
             $img = file_get_contents(base_url($url));
         }
