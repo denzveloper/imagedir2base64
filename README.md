@@ -7,7 +7,7 @@ just call this file then call function with directory.
 ex: show('/assets/path/to/image.png')
 
 
-Tested on system: Manjaro Linux, php73, Apache, Codeigniter
+Tested on system: Manjaro Linux, php73, Apache, Codeigniter 3.x
 
 *Maybe load page longer than usual because waiting for render image first*
 
