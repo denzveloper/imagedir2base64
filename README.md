@@ -4,7 +4,8 @@ Get image on a directory then optimize to Webp 70% quality (chrome based browser
 
 just call this file then call function with directory.
 
-ex: show('/assets/path/to/image.png')
+ex: 
+```<img src="<?=show('/assets/path/to/image.png')?>">```
 
 
 Tested on system: Manjaro Linux, php73, Apache, Codeigniter 3.x
