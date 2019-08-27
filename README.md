@@ -18,4 +18,4 @@ Tested on system: Manjaro Linux, php73, Apache, Codeigniter 3.x
 4. move index.png and notfound.png
 5. Run!
 
-_other library or using native php doesnt support by me. but you can modify it to run other framework/navive php_
+_other framework or using native php doesnt support by me. but you can modify it to run other framework/navive php_
